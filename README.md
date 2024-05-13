@@ -12,12 +12,15 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 
 Dan Beberapa komponen dasar seperti resistor dan kapasitor untuk *pull up* push button
 
-# Skematik
+
+## Konsep Simulasi
 Berikut adalah skematik breadbord untuk simulasi menggunakan TinkerCad yang menggunakan Arduino Uno
 
 [![Skematik TinkerCad](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/blob/main/Assets/Simulasi%20Sistem%20Pendeteksi%20Gas%20Sederhana.png?raw=true "Skematik TinkerCad")](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/blob/main/Assets/Simulasi%20Sistem%20Pendeteksi%20Gas%20Sederhana.png?raw=true "Skematik TinkerCad")
 
 Dengan hasil simulasi seperti ditunjukkan pada [video YouTube ini.](https://youtu.be/8_7WZJKQg08 "video YouTube ini.")
 
+
+## Skematik dan PCB
 Implementasi dari rangkaian diatas diubah menjadi PCB untuk Shield Arduino Mega menggunakan software KiCad. Berikut adalah skematik rangkaiannya.
 [![Skematik PCB KiCad](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/blob/main/Assets/Skematik%20Kicad.jpg?raw=true "Skematik PCB KiCad")](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/blob/main/Assets/Skematik%20Kicad.jpg?raw=true "Skematik PCB KiCad")
