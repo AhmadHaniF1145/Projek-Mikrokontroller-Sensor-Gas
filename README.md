@@ -24,3 +24,13 @@ Dengan hasil simulasi seperti ditunjukkan pada [video YouTube ini.](https://yout
 ## Skematik dan PCB
 Implementasi dari rangkaian diatas diubah menjadi PCB untuk Shield Arduino Mega menggunakan software KiCad. Berikut adalah skematik rangkaiannya.
 [![Skematik PCB KiCad](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/blob/main/Assets/Skematik%20Kicad.jpg?raw=true "Skematik PCB KiCad")](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/blob/main/Assets/Skematik%20Kicad.jpg?raw=true "Skematik PCB KiCad")
+
+## Desain 3D
+Berikut ini adalah hasil desain 3D menggunakan Fushion 360 :
+1. Desain 3D Casing + Komponen
+![Screenshot (462)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/913f9b04-d7d6-4089-9b4e-185f4c62a06d)
+2. Desain 3D Casing
+![Screenshot (463)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/6698a503-5cbc-420c-a40c-6e6d031957cd)
+
+
+
