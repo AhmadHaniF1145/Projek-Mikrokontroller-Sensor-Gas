@@ -26,12 +26,13 @@ Implementasi dari rangkaian diatas diubah menjadi PCB untuk Shield Arduino Mega 
 
 
 ## Desain 3D
-Berikut ini adalah hasil desain 3D menggunakan Fushion 360 :
+Berikut ini adalah hasil desain 3D :
 1. Desain 3D Casing
 ![Casing_3D_2024-May-12_09-15-01AM-000_CustomizedView60361281327](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/e26019c6-1331-412f-831c-df3e6e7c58ba)
 2. Desain 3D Casing + Komponen
 ![Casing_3D_2024-May-12_09-13-18AM-000_CustomizedView19460723771](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/9b444903-7310-4619-b300-ca68e863c4d1)
-
+3. Desain 3D PCB
+![3d pcb](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/1e878841-ff86-4c2b-bac7-885510a7d0b7)
 
 
 
