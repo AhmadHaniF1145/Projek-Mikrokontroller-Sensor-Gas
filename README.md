@@ -9,6 +9,7 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 4. Push Button
 5. LED 3mm
 6. Speaker/Buzzer
+7. Amplifier 3W
 
 Dan Beberapa komponen dasar seperti resistor dan kapasitor untuk *pull up* push button
 ## Konsep Simulasi
