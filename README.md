@@ -11,8 +11,6 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 6. Speaker/Buzzer
 
 Dan Beberapa komponen dasar seperti resistor dan kapasitor untuk *pull up* push button
-
-
 ## Konsep Simulasi
 Berikut adalah skematik breadbord untuk simulasi menggunakan TinkerCad yang menggunakan Arduino Uno
 
