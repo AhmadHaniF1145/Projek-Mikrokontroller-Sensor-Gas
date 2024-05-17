@@ -1,0 +1,8 @@
+Penjelasan nama file PDF pada folder ini:
+
+B_Cu = Layer tembaga bagian bawah
+B_Mask = Masking solder bagian Bawah
+
+F_Cu = Layer tembaga bagian atas
+F_Mask = Masking solder bagian atas
+F_Silkscreen = Keterangan-keterangan komponen pada layer atas

@@ -422,7 +422,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Project Hanip.kicad_pro",
+    "filename": "Progress 4 Final.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -460,7 +460,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../Project Hanip 3/Projek-Mikrokontroller-Sensor-Gas/PCB Board/Progress 2/Project Hanip.step",
+      "step": "../PCB 3D Model/Project 4 3D Model.step",
       "svg": "",
       "vrml": ""
     },
