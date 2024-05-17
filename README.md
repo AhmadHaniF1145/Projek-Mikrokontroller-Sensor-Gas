@@ -16,7 +16,7 @@ Dan Beberapa komponen dasar seperti resistor dan kapasitor untuk *pull up* push 
 ## Konsep Simulasi
 Berikut adalah skematik breadbord untuk simulasi menggunakan TinkerCad yang menggunakan Arduino Uno
 
-[![Skematik TinkerCad](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/blob/main/Assets/Simulasi%20Sistem%20Pendeteksi%20Gas%20Sederhana.png?raw=true "Skematik TinkerCad")](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/blob/main/Assets/Simulasi%20Sistem%20Pendeteksi%20Gas%20Sederhana.png?raw=true "Skematik TinkerCad")
+![Simulasi Sistem Pendeteksi Gas Sederhana](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/39eb430e-0b18-4c78-bdcf-787a9f2c64ee)
 
 Dengan hasil simulasi seperti ditunjukkan pada [video YouTube ini.](https://youtu.be/8_7WZJKQg08 "video YouTube ini.")
 
