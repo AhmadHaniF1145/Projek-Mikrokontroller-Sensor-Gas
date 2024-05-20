@@ -42,7 +42,7 @@ Terdapat 2 mode audio sebagai deteksi adanya kebocoran gas, yaitu :
 1. Terdeteksi kebocoran gas hati-hati siaga
 2. Bahaya, bahaya, bahaya terdeteksi kebocoran gas
 
-Berikut hasil pembuatan audio dengan hasil editnya menggunakan software Audacity yang kemudian didapatkan file raw yang dibuka melalui software HxD untuk memperoleh datanya dan didapatkan program bahasa C. Program bahasa C tersebut digunakan untuk memrogram Aduino agar audio berfungsi. Berikut hasil dokumentasinya :
+Berikut hasil pembuatan audio dengan hasil editnya menggunakan software Audacity yang kemudian didapatkan file raw yang dibuka melalui software HxD untuk memperoleh datanya dan didapatkan program bahasa C. Program bahasa C tersebut digunakan untuk memrogram Aduino Aduino ATMega 2560 agar audio berfungsi. Berikut hasil dokumentasinya :
 1. Terdeteksi kebocoran gas hati-hati siaga
 ![audio1 auda](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/db14e100-4098-4b76-860f-b313bf87644a)
 ![audio1 hxd](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/29da9884-2d4c-4708-83c8-867e1dda656a)
@@ -54,5 +54,19 @@ Hasil audio sebelum dan sesudah diedit menggunakan software Audacity [di sini](h
 ![audio2 c](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/9447c832-1cc8-4728-af79-7b8b3e97abe5)
 Hasil audio sebelum dan sesudah diedit menggunakan software Audacity [di sini](https://youtu.be/l1GMS38mKNk "di sini").
 
-
+## Proses Pengerjaan
+Berikut dokumentasi pada proses pengerjaan.
+1. Pembelian komponen 
+![WhatsApp Image 2024-05-20 at 15 34 41](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/01ab41fd-e853-4dde-9b55-9c854b3375e2)
+2. Cetak PCB dan berikut hasilnya
+![WhatsApp Image 2024-05-18 at 21 22 45](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a05ebb59-24d9-4192-875c-c0bfa4a8d21a)
+3. Cetak desain 3D dan berikut hasilnya
+![WhatsApp Image 2024-05-20 at 15 28 34](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/af957f27-7b81-4d70-8b82-c247035eec66)
+4. Pembuatan audio project
+5. Penyolderan komponen pada PCB
+![WhatsApp Image 2024-05-20 at 15 07 57](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/02b1407d-20ee-4f50-ad4b-c2ab4aeecf21)
+![WhatsApp Image 2024-05-20 at 15 07 58](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/b45102b9-e32f-40ad-91d2-b0300cd6ee58)
+6. Pembuatan program Aduino ATMega 2560
+7. Finishing
+8. Proses dokumentasi pada README.md
 
