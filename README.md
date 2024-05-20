@@ -67,7 +67,6 @@ Berikut dokumentasi pada proses pengerjaan.
 5. Pembuatan audio project
 ![WhatsApp Image 2024-05-20 at 15 47 16 (1)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a41125d5-13c3-4836-8066-0919d1396c72)
 6. Penyolderan komponen pada PCB
-![WhatsApp Image 2024-05-20 at 15 07 57](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/02b1407d-20ee-4f50-ad4b-c2ab4aeecf21)
 ![WhatsApp Image 2024-05-20 at 15 07 58](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/b45102b9-e32f-40ad-91d2-b0300cd6ee58)
 7. Pengemasan
 ![WhatsApp Image 2024-05-20 at 15 58 38](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/22f4a12a-be4c-4ba2-b998-24e26cb7c9ab)
