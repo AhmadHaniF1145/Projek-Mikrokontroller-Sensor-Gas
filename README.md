@@ -44,6 +44,7 @@ Terdapat 2 mode audio yang dikendalikan oleh 2 push button, yaitu :
 
 Berikut hasil pembuatan audio dengan hasil editnya menggunakan software Audacity yang kemudian didapatkan file raw yang dibuka melalui software HxD untuk memperoleh datanya dan didapatkan program bahasa C. Program bahasa C tersebut digunakan untuk memrogram Aduino agar audio berfungsi. Berikut hasil dokumentasinya :
 1. Terdeteksi kebocoran gas hati-hati siaga
+Hasil sebelum dan sesudah diedit menggunkan software Audacity [di sini.](https://youtu.be/VL2fVMhNUZw "di sini.")
 ![audio1 auda](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/db14e100-4098-4b76-860f-b313bf87644a)
 ![audio1 hxd](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/29da9884-2d4c-4708-83c8-867e1dda656a)
 ![audio1 c](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/564c69fe-35a1-4499-8651-8312e3c7a250)
