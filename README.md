@@ -38,7 +38,7 @@ Berikut ini adalah hasil desain 3D :
 ![3D Image tanpa komponen](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/1d6cba32-6652-4590-9f34-5f4ce87ad227)
 
 ## Audio Project
-Mode audio yang kami gunakan ada 2 macam yang dikendalikan oleh 2 push button, yaitu :
+Terdapat 2 mode audio yang dikendalikan oleh 2 push button, yaitu :
 1. Terdeteksi kebocoran gas hati-hati siaga
 2. Bahaya, bahaya, bahaya terdeteksi kebocoran gas
 
