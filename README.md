@@ -37,8 +37,20 @@ Berikut ini adalah hasil desain 3D :
 4. Desain 3D PCB tanpa Komponen
 ![3D Image tanpa komponen](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/1d6cba32-6652-4590-9f34-5f4ce87ad227)
 
+## Audio Project
+Mode audio yang kami gunakan ada 2 macam yang dikendalikan oleh 2 push button, yaitu :
+1. Terdeteksi kebocoran gas hati-hati siaga
+2. Bahaya, bahaya, bahaya terdeteksi kebocoran gas
 
-
+Berikut hasil pembuatan audio dengan hasil editnya menggunakan software Audacity yang kemudian didapatkan file raw yang dibuka melalui software HxD untuk memperoleh datanya dan didapatkan program bahasa C. Program bahasa C tersebut digunakan untuk memrogram Aduino agar audio berfungsi. Berikut hasil dokumentasinya :
+1. Terdeteksi kebocoran gas hati-hati siaga
+![audio1 auda](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/db14e100-4098-4b76-860f-b313bf87644a)
+![audio1 hxd](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/29da9884-2d4c-4708-83c8-867e1dda656a)
+![audio1 hxd](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/c0a2e629-cde5-437d-ae81-6c0d51a02d66)
+3. Bahaya, bahaya, bahaya terdeteksi kebocoran gas
+![audio2 auda](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/187c9402-27a3-49af-9626-3644c708aaee)
+![audio2 hxd](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a9354b83-d256-4b3c-a181-f101cccddfb0)
+![audio2 c](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/9447c832-1cc8-4728-af79-7b8b3e97abe5)
 
 
 
