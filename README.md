@@ -56,17 +56,19 @@ Hasil audio sebelum dan sesudah diedit menggunakan software Audacity [di sini](h
 
 ## Proses Pengerjaan
 Berikut dokumentasi pada proses pengerjaan.
-1. Pembelian komponen 
-![WhatsApp Image 2024-05-20 at 15 34 41](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/01ab41fd-e853-4dde-9b55-9c854b3375e2)
-2. Cetak PCB dan berikut hasilnya
-![WhatsApp Image 2024-05-18 at 21 22 45](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a05ebb59-24d9-4192-875c-c0bfa4a8d21a)
-3. Cetak desain 3D dan berikut hasilnya
+1. Dokumentasi README.md
+![WhatsApp Image 2024-05-20 at 15 47 16](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a7ab4589-1d05-4313-b617-d1f20b48bc91)
+2. Pembelian komponen 
+![WhatsApp Image 2024-05-20 at 15 34 41](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/5fd885cd-d230-4474-9eed-17eb4611c2f8)
+3. Cetak PCB dan berikut hasilnya
+![WhatsApp Image 2024-05-18 at 21 22 45](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/d4bc5c35-9c43-4529-b818-43a35a189968)
+4. Cetak desain 3D dan berikut hasilnya
 ![WhatsApp Image 2024-05-20 at 15 28 34](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/af957f27-7b81-4d70-8b82-c247035eec66)
-4. Pembuatan audio project
-5. Penyolderan komponen pada PCB
+5. Pembuatan audio project
+![WhatsApp Image 2024-05-20 at 15 47 16 (1)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a41125d5-13c3-4836-8066-0919d1396c72)
+6. Penyolderan komponen pada PCB
 ![WhatsApp Image 2024-05-20 at 15 07 57](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/02b1407d-20ee-4f50-ad4b-c2ab4aeecf21)
 ![WhatsApp Image 2024-05-20 at 15 07 58](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/b45102b9-e32f-40ad-91d2-b0300cd6ee58)
-6. Pembuatan program Aduino ATMega 2560
-7. Finishing
-8. Proses dokumentasi pada README.md
+7. Pembuatan program Aduino ATMega 2560
+8. Finishing
 
