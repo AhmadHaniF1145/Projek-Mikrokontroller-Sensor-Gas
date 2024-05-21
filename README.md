@@ -23,6 +23,7 @@ Dengan hasil simulasi seperti ditunjukkan pada [video YouTube ini.](https://yout
 
 ## Skematik Rangkaian
 Berikut ini adalah hasil skematik rangkaian sistem pendeteksi kebocoran gas menggunakan software KiCad.
+
 ![Skematik Kicad](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/a380369b-9d11-4667-9d97-09f717059ece)
 
 
