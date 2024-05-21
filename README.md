@@ -42,7 +42,7 @@ Terdapat 2 mode audio sebagai deteksi adanya kebocoran gas, yaitu :
 1. Terdeteksi kebocoran gas hati-hati siaga
 2. Bahaya, bahaya, bahaya terdeteksi kebocoran gas
 
-Berikut hasil pembuatan audio dengan hasil editnya menggunakan software Audacity yang kemudian didapatkan file raw yang dibuka melalui software HxD untuk memperoleh datanya dan didapatkan program bahasa C. Program bahasa C tersebut digunakan untuk memrogram Aduino Aduino ATMega 2560 agar audio berfungsi. Berikut hasil dokumentasinya :
+Berikut hasil pembuatan audio dengan hasil editnya menggunakan software Audacity yang kemudian didapatkan file raw yang dibuka melalui software HxD untuk memperoleh datanya dan didapatkan program bahasa C. Program bahasa C tersebut digunakan untuk memrogram Arduino ATMega 2560 agar audio berfungsi. Berikut hasil dokumentasinya :
 1. Terdeteksi kebocoran gas hati-hati siaga
 ![audio1 auda](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/db14e100-4098-4b76-860f-b313bf87644a)
 ![audio1 hxd](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/29da9884-2d4c-4708-83c8-867e1dda656a)
