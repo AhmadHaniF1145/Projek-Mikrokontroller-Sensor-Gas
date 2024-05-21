@@ -22,7 +22,7 @@ Dengan hasil simulasi seperti ditunjukkan pada [video YouTube ini.](https://yout
 
 
 ## Skematik Rangkaian
-Implementasi dari rangkaian diatas diubah menjadi PCB untuk Shield Arduino Mega menggunakan software KiCad. Berikut adalah skematik rangkaiannya.
+Berikut ini adalah hasil skematik rangkaian sistem pendeteksi kebocoran gas menggunakan software KiCad.
 ![Skematik Kicad](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/a380369b-9d11-4667-9d97-09f717059ece)
 
 
