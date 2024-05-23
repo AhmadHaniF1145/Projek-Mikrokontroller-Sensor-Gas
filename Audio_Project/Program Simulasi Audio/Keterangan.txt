@@ -1,0 +1,4 @@
+Program ini di simulasikan menggunakan PlatformIO, itulah mengapa program berformat .c
+
+Library yang tercantum (PCMModded) merupakan modifikasi library PCM supaya dapat memainkan audio di pin 13 (Timer 0, register OC0A)
+Library PCM yang asli memainkan audio di pin 10 (Timer 2, register OC2A)
