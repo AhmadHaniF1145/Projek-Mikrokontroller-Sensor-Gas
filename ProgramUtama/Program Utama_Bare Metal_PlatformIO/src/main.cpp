@@ -1,5 +1,4 @@
 //#include <Arduino.h>
-
 #include <PCMModded.h>
 // Versi modifikasi dari library PCM agar dapat memutar audio
 // pada pin 13 Timer 0, bukan pada bawaannya yaitu pin 10 Timer 2
@@ -18,13 +17,13 @@ void setup() {
   DDRL = (1 << redLed) | (1 << greenLed);
   DDRF &= ~(1 << smokeInAnalog);
 
-  Serial.begin(9600);
+  //Serial.begin(9600);
 }
 
 void loop() {
   //int bacaAsap = analogRead(smokeInAnalog);
 
-  Serial.print("Pin A0: ");
+  //Serial.print("Pin A0: ");
   //Serial.println(bacaAsap);
   
   // if (bacaAsap > sensorThres)
