@@ -9,11 +9,36 @@
 #include "audio2.h"
 
 
+int redLed = 36;
+int greenLed = 42;
+int smokeInAnalog = A0;
+int sensorThres = 500;
+
 void setup() {
-  startPlayback(audio2, sizeof(audio2));
-  delay(5000);
-  startPlayback(audio1, sizeof(audio1));
+  pinMode(redLed, OUTPUT);
+  pinMode(greenLed, OUTPUT);
+
+  pinMode(smokeInAnalog, INPUT);
+  Serial.begin(9600);
 }
 
 void loop() {
+  int bacaAsap = analogRead(smokeInAnalog);
+
+  Serial.print("Pin A0: ");
+  Serial.println(bacaAsap);
+  
+  if (bacaAsap > sensorThres)
+  {
+    digitalWrite(redLed, HIGH);
+    digitalWrite(greenLed, LOW);
+    startPlayback(audio1, sizeof(audio1));
+
+  }
+  else
+  {
+    digitalWrite(redLed, LOW);
+    digitalWrite(greenLed, HIGH);
+  }
+  delay(100);
 }
