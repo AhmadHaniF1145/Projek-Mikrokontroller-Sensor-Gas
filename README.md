@@ -55,7 +55,9 @@ Hasil audio sebelum dan sesudah diedit menggunakan software Audacity [di sini](h
 ![audio2 c](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/9447c832-1cc8-4728-af79-7b8b3e97abe5)
 Hasil audio sebelum dan sesudah diedit menggunakan software Audacity [di sini](https://youtu.be/l1GMS38mKNk "di sini").
 3. Video Tutorial : Langkah - Langkah Convert Audio Ke Bahasa C
-   https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/06a25a4b-cfa3-4cde-b9b2-bd3c78b2ab34
+
+https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/06a25a4b-cfa3-4cde-b9b2-bd3c78b2ab34
+
 
 ## Proses Pengerjaan
 Berikut dokumentasi pada proses pengerjaan.
