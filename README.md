@@ -8,13 +8,14 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 3. OLED 0.96 Inch
 4. Push Button
 5. LED 3mm
-6. Speaker/Buzzer
-7. Amplifier 3W
-8. dll
+6. SMD LED 1206
+7. Speaker/Buzzer
+8. Modul amplifier PAM8403
+9. IC SPI Flash W25Q32JVSSIQ (4MB)
 
-Dan Beberapa komponen dasar seperti resistor dan kapasitor untuk *pull up* push button
+Dan Beberapa komponen pasif seperti resistor yang digunakan sebagai *trigger pull up* pada push button yang nantinya akan digunakan untuk interrupt, dan kapasitor yang digunakan pada blok rangkaian SPI Flash Eksternal yang digunakan sebagai penyimpanan data tambahan.
 ## Konsep Simulasi
-Berikut adalah skematik breadbord untuk simulasi menggunakan TinkerCad yang menggunakan Arduino Uno
+Berikut adalah skematik breadboard untuk simulasi menggunakan TinkerCad yang menggunakan Arduino Uno
 
 ![Simulasi Sistem Pendeteksi Gas Sederhana](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/39eb430e-0b18-4c78-bdcf-787a9f2c64ee)
 
