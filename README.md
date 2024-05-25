@@ -13,7 +13,7 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 8. Modul amplifier PAM8403
 9. IC SPI Flash W25Q32JVSSIQ (4MB)
 
-Dan Beberapa komponen pasif seperti resistor yang digunakan sebagai *trigger pull up* pada push button yang nantinya akan digunakan untuk interrupt, dan kapasitor yang digunakan pada blok rangkaian SPI Flash Eksternal yang digunakan sebagai penyimpanan data tambahan.
+Dan Beberapa komponen pasif seperti resistor yang salah satunya digunakan sebagai pembatas arus pada LED indikator, dan kapasitor yang digunakan pada blok rangkaian SPI Flash Eksternal yang digunakan sebagai penyimpanan data tambahan.
 ## Konsep Simulasi
 Berikut adalah skematik breadboard untuk simulasi menggunakan TinkerCad yang menggunakan Arduino Uno
 
@@ -25,7 +25,8 @@ Dengan hasil simulasi seperti ditunjukkan pada [video YouTube ini.](https://yout
 ## Skematik Rangkaian
 Berikut ini adalah hasil skematik rangkaian sistem pendeteksi kebocoran gas menggunakan software KiCad.
 
-![Skematik Kicad](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/a380369b-9d11-4667-9d97-09f717059ece)
+![Schematic - Final](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/96289624/577b15af-4e1f-4909-9a41-ec3f98f00416)
+
 
 
 ## Desain 3D
