@@ -1,4 +1,4 @@
-![SISTEM PENDETEKSI KEBOCORAN GAS](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/d88e36ee-126d-48ff-ad7a-433debee848f)
+![SISTEM PENDETEKSI KEBOCORAN GAS (1)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/b45810d6-9671-49c0-8788-33401f66e8d0)
 
 Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk mendeteksi dan memberi peringatan tentang kebocoran gas. Peringatan yang dihasilkan adalah dalam bentuk audio sesuai gas yang dideteksi beserta tingkat bahayanya.
 
