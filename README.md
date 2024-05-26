@@ -2,7 +2,7 @@
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
 - [Konsep Simulasi](#Konsep-Simulasi)
-- [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
+- [Skematik Rangkaian](#Skematik-Rangkaian)
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
 Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk mendeteksi dan memberi peringatan tentang kebocoran gas. Peringatan yang dihasilkan adalah dalam bentuk audio sesuai gas yang dideteksi beserta tingkat bahayanya.
 
