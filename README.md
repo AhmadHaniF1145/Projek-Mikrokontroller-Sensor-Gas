@@ -5,6 +5,9 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 - [Konsep Simulasi](#Konsep-Simulasi)
 - [Skematik Rangkaian](#Skematik-Rangkaian)
 - [Desain 3D](#Desain-3D)
+- [Desain 3D](#Desain-3D)
+- [Desain 3D](#Desain-3D)
+- [Desain 3D](#Desain-3D)
 
 ## Komponen Yang Digunakan
 1. Arduino Mega 2560
