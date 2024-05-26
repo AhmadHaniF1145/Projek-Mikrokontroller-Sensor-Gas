@@ -5,7 +5,7 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 - [Konsep Simulasi](#Konsep-Simulasi)
 - [Skematik Rangkaian](#Skematik-Rangkaian)
 - [Informasi Penempatan Modul dan Komponen](#Informasi-Penempatan-Modul-dan-Komponen)
-- [Desain 3D](#Desain-3D)
+- [Audio Project](#Audio-Project)
 - [Desain 3D](#Desain-3D)
 - [Desain 3D](#Desain-3D)
 
