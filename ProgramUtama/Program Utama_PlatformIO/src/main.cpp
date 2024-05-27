@@ -17,13 +17,18 @@ int greenLed = 42;
 int smokeInAnalog = A0;
 int sensorThres = 500;
 
-Adafruit_SSD1306 display(128, 64, 0x3D, &Wire, -1);
+Adafruit_SSD1306 display(-1);
 
 void setup() {
   pinMode(redLed, OUTPUT);
   pinMode(greenLed, OUTPUT);
 
   pinMode(smokeInAnalog, INPUT);
+
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3D);
+  display.clearDisplay();
+  display.display();
+
   Serial.begin(9600);
 }
 
@@ -32,6 +37,13 @@ void loop() {
 
   Serial.print("Pin A0: ");
   Serial.println(bacaAsap);
+
+  display.clearDisplay();
+  display.setTextSize(2);
+  display.setTextColor(SSD1306_WHITE);
+  display.setCursor(0, 0);
+  display.print(bacaAsap);
+  display.display();
   
   if (bacaAsap > sensorThres)
   {
