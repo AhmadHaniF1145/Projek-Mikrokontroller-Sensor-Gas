@@ -50,6 +50,9 @@ Berikut ini adalah hasil desain 3D :
 Tata letak dan informasi terkait penempatan Modul dan Komponen untuk memudahkan pengguna dalam melakukan perakitan
 ![Configuration](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/96289624/7aa48c24-adea-40a0-a9db-cbcecc07b824)
 
+## Manufacture Drawing untuk Casing
+Berikut adalah detail ukuran casing untuk kebutuhan manufaktur
+
 
 ## Audio Project
 Terdapat 2 mode audio sebagai deteksi adanya kebocoran gas, yaitu :
