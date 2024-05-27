@@ -19,13 +19,17 @@ int greenLed = 42;
 int smokeInAnalog = A0;
 int sensorThres = 500;
 
-#define OLED_RESET -1
+const int ButtonInt = 5;
 
+#define OLED_RESET -1
 Adafruit_SSD1306 display(OLED_RESET);
 
 void setup() {
   pinMode(redLed, OUTPUT);
   pinMode(greenLed, OUTPUT);
+
+  pinMode(ButtonInt, INPUT);
+  attachInterrupt(digitalPinToInterrupt(ButtonInt), ISR1, CHANGE);
 
   pinMode(smokeInAnalog, INPUT);
 
@@ -61,5 +65,10 @@ void loop() {
     digitalWrite(redLed, LOW);
     digitalWrite(greenLed, HIGH);
   }
-  delay(100);
+  delay(10);
+}
+
+void ISR1() {
+  stopPlayback();
+  delay(3000);
 }
