@@ -9,6 +9,8 @@
 #include <Adafruit_SSD1306.h>
 #include <Adafruit_GFX.h>
 
+#include <PinChangeInterrupt.h>
+
 #include "audio1.h"
 #include "audio2.h"
 
