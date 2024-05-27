@@ -19,7 +19,9 @@ int greenLed = 42;
 int smokeInAnalog = A0;
 int sensorThres = 500;
 
-Adafruit_SSD1306 display(-1);
+#define OLED_RESET -1
+
+Adafruit_SSD1306 display(OLED_RESET);
 
 void setup() {
   pinMode(redLed, OUTPUT);
