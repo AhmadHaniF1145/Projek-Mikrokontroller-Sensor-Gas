@@ -69,7 +69,7 @@ Hasil audio sebelum dan sesudah diedit menggunakan software Audacity [di sini](h
 Hasil audio sebelum dan sesudah diedit menggunakan software Audacity [di sini](https://youtu.be/l1GMS38mKNk "di sini").
 3. Video Tutorial : Langkah - Langkah Convert Audio Ke Bahasa C
 
-https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/8abb6570-371c-4412-ba63-2867d9131914
+   https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/8abb6570-371c-4412-ba63-2867d9131914
 
 
 
