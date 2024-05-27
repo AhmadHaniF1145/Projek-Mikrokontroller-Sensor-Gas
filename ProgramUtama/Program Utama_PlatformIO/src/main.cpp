@@ -5,14 +5,19 @@
 // pada pin 13 Timer 0, bukan pada bawaannya yaitu pin 10 Timer 2
 // Modded by : Ilham Kurniawan
 
+#include <Wire.h>
+#include <Adafruit_SSD1306.h>
+#include <Adafruit_GFX.h>
+
 #include "audio1.h"
 #include "audio2.h"
-
 
 int redLed = 36;
 int greenLed = 42;
 int smokeInAnalog = A0;
 int sensorThres = 500;
+
+Adafruit_SSD1306 display(128, 64, 0x3D, &Wire, -1);
 
 void setup() {
   pinMode(redLed, OUTPUT);
