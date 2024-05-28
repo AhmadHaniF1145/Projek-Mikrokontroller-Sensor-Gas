@@ -8,7 +8,7 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 `NIP. 197501272002121003`
 
 `TEAM`
-| No.  | Nama  | NRP  | Jobdesc  |
+| No.  | Nama  | NRP  | Pembagian Tugas  |
 | :------------: | :------------: | :------------: | :------------: |
 | 1  | Ahmad Hanif A K  | 2122500031  | Pengujian Sistem Pada Software, Pengujian Alat  |
 | 2  | Nawfal Ulinnuha F  | 2122500041  | Publikasi melalui Github, Pembelian Hardware  |
