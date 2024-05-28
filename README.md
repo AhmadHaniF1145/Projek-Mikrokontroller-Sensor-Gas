@@ -93,7 +93,8 @@ Hasil audio sebelum dan sesudah diedit menggunakan software Audacity [di sini](h
 
 ## Proses Pengerjaan
 Berikut dokumentasi pada proses pengerjaan.
-1. Dokumentasi README.md
+1. Studi Literatur
+![Studi Literatur](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/e9ad544b-3647-4cb4-966b-386ff4137156)
 ![WhatsApp Image 2024-05-20 at 15 47 16](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a7ab4589-1d05-4313-b617-d1f20b48bc91)
 2. Pembelian komponen 
 ![WhatsApp Image 2024-05-20 at 15 34 41](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/5fd885cd-d230-4474-9eed-17eb4611c2f8)
