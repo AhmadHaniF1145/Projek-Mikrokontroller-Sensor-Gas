@@ -93,7 +93,7 @@ Berikut dokumentasi pada proses pengerjaan.
 3. Cetak PCB dan berikut hasilnya
 ![WhatsApp Image 2024-05-18 at 21 22 45](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/d4bc5c35-9c43-4529-b818-43a35a189968)
 4. Cetak desain 3D dan berikut hasilnya
-![WhatsApp Image 2024-05-20 at 15 28 34](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/af957f27-7b81-4d70-8b82-c247035eec66)
+![Hasil Desain 3D](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/58ec9689-f922-48b8-9f06-302aff11aa72)
 5. Pembuatan audio project
 ![WhatsApp Image 2024-05-20 at 15 47 16 (1)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a41125d5-13c3-4836-8066-0919d1396c72)
 6. Penyolderan komponen pada PCB
