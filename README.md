@@ -4,8 +4,18 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 
 `WORKSHOP MIKROKONTROLLER - PROGRAM STUDI TEKNIK ELEKTRONIKA - POLITEKNIK ELEKTRONIKA NEGERI SURABAYA`
 
-`DOSEN PENGAMPU : Akhmad Hendriawan ST, MT
-NIP. 197501272002121003`
+`DOSEN PENGAMPU : Akhmad Hendriawan ST, MT`
+`NIP. 197501272002121003`
+
+`TEAM`
+| No.  | Nama  | NRP  | Pembagian Tugas  |
+| :------------: | :------------: | :------------: | :------------: |
+| 1  | Ahmad Hanif A K  | 2122500031  | Pengujian Sistem Pada Software, Pengujian Alat  |
+| 2  | Nawfal Ulinnuha F  | 2122500041  | Publikasi melalui Github, Pembelian Hardware  |
+| 3  |  Clarrisa Fitria A  | 2122500046  |  Studi Literatur, Pembuatan Audio Project |
+| 4  |  Fatimah Azzahro |  2122500047 | Publikasi melalui Github, Pembuatan Audio Project |
+| 5  |  Muhammad Ilham K | 2122500052  |  Desain 3D, Proses Perakitan dan Soldering, Proses Pemrograman Arduino |
+| 6  | Artur Ferdiansyah  |  2122500059 | Desain Skematik dan PCB Board, Proses Perakitan dan Soldering, Proses Pemrograman Arduino  |
 
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
@@ -14,6 +24,7 @@ NIP. 197501272002121003`
 - [Informasi Penempatan Modul dan Komponen](#Informasi-Penempatan-Modul-dan-Komponen)
 - [Audio Project](#Audio-Project)
 - [Proses Pengerjaan](#Proses-Pengerjaan)
+- [Hasil](#Hasil)
 
 ## Komponen Yang Digunakan
 1. Arduino Mega 2560
@@ -47,8 +58,7 @@ Berikut adalah link tutorial dalam pembuatan skematik menggunakan KiCad bisa dil
 
 
 ## Desain 3D
-[Desain 3D](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Desain%203D "Desain 3D")
-Berikut ini adalah hasil desain 3D :
+Berikut ini adalah hasil [desain 3D](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Desain%203D "Desain 3D") :
 1. Desain 3D Casing
 ![WhatsApp Image 2024-05-21 at 08 23 37 (1)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a8f32070-f779-429f-9d4e-500686a4b812)
 2. Desain 3D Casing + Komponen
@@ -58,8 +68,7 @@ Berikut ini adalah hasil desain 3D :
 4. Desain 3D PCB tanpa Komponen
 ![3D Image tanpa komponen](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/1d6cba32-6652-4590-9f34-5f4ce87ad227)
 
-Berikut adalah tutorial dalam pembuatan desain PCB menggunakan KiCad pada proyek ini. Bisa klik link [berikut.](https://youtu.be/dg8yomkr-xE "berikut."). Dan file bisa diakses melalui link [berikut.](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/PCB%20Board/Progress%204%20Final/PCB%20Master "berikut.")
-
+Berikut adalah tutorial dalam pembuatan desain PCB menggunakan KiCad pada proyek ini. Bisa klik link [berikut.](https://youtu.be/dg8yomkr-xE "berikut.")
 
 ## Informasi Penempatan Modul dan Komponen
 Tata letak dan informasi terkait penempatan Modul dan Komponen untuk memudahkan pengguna dalam melakukan perakitan
@@ -94,7 +103,6 @@ Hasil audio sebelum dan sesudah diedit menggunakan software Audacity [di sini](h
    https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/8abb6570-371c-4412-ba63-2867d9131914
 
 
-   File Audio Project bisa diakses melalui link [berikut.](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Audio_Project "berikut.")
 
 ## Proses Pengerjaan
 Berikut dokumentasi pada proses pengerjaan. [Dokumentasi](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Dokumentasi "Dokumentasi")
