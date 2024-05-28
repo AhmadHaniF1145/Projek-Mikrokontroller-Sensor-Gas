@@ -8,7 +8,14 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 `NIP. 197501272002121003`
 
 `TEAM`
-
+| No.  | Nama  | NRP  | Jobdesc  |
+| :------------: | :------------: | :------------: | :------------: |
+| 1  | Ahmad Hanif A K  | 2122500031  | Pengujian Sistem Pada Software, Pengujian Alat  |
+| 2  | Nawfal Ulinnuha F  | 2122500041  | Publikasi melalui Github, Pembelian Hardware  |
+| 3  |  Clarrisa Fitria A  | 2122500046  |  Studi Literatur, Pembuatan Audio Project |
+| 4  |  Fatimah Azzahro |  2122500047 | Publikasi melalui Github, Pembuatan Audio Project |
+| 5  |  Muhammad Ilham K | 2122500052  |  Desain 3D, Proses Perakitan dan Soldering, Proses Pemrograman Arduino |
+| 6  | Artur Ferdiansyah  |  2122500059 | Desain Skematik dan PCB Board, Proses Perakitan dan Soldering, Proses Pemrograman Arduino  |
 
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
