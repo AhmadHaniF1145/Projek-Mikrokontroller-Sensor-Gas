@@ -57,8 +57,7 @@ Berikut adalah link tutorial dalam pembuatan skematik menggunakan KiCad bisa dil
 
 
 ## Desain 3D
-[Desain 3D](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Desain%203D "Desain 3D")
-Berikut ini adalah hasil desain 3D :
+Berikut ini adalah hasil [Desain 3D](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Desain%203D "Desain 3D") :
 1. Desain 3D Casing
 ![WhatsApp Image 2024-05-21 at 08 23 37 (1)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a8f32070-f779-429f-9d4e-500686a4b812)
 2. Desain 3D Casing + Komponen
@@ -68,8 +67,7 @@ Berikut ini adalah hasil desain 3D :
 4. Desain 3D PCB tanpa Komponen
 ![3D Image tanpa komponen](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/1d6cba32-6652-4590-9f34-5f4ce87ad227)
 
-Berikut adalah tutorial dalam pembuatan desain PCB menggunakan KiCad pada proyek ini. Bisa klik link [berikut.](https://youtu.be/dg8yomkr-xE "berikut."). Dan file bisa diakses melalui link [berikut.](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/PCB%20Board/Progress%204%20Final/PCB%20Master "berikut.")
-
+Berikut adalah tutorial dalam pembuatan desain PCB menggunakan KiCad pada proyek ini. Bisa klik link [berikut.](https://youtu.be/dg8yomkr-xE "berikut.")
 
 ## Informasi Penempatan Modul dan Komponen
 Tata letak dan informasi terkait penempatan Modul dan Komponen untuk memudahkan pengguna dalam melakukan perakitan
