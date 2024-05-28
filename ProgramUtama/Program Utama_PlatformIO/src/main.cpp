@@ -16,7 +16,6 @@
 
 int redLed = 36;
 int greenLed = 42;
-//int smokeInAnalog = A0;
 int sensorThres = 600;
 int bacaAsap = 0;
 
