@@ -1,5 +1,4 @@
-![SISTEM PENDETEKSI KEBOCORAN GAS (2)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/e76d59b6-fd9b-4618-88f2-fbd6e8390744)
-
+![banner-dg-logo](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/5410750e-905b-4915-b019-66d21088dd2c)
 Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk mendeteksi dan memberi peringatan tentang kebocoran gas. Peringatan yang dihasilkan adalah dalam bentuk audio sesuai gas yang dideteksi beserta tingkat bahayanya.
 
 `WORKSHOP MIKROKONTROLLER - PROGRAM STUDI TEKNIK ELEKTRONIKA - POLITEKNIK ELEKTRONIKA NEGERI SURABAYA`
@@ -40,6 +39,7 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 Dan Beberapa komponen pasif seperti resistor yang salah satunya digunakan sebagai pembatas arus pada LED indikator, dan kapasitor yang digunakan pada blok rangkaian SPI Flash Eksternal yang digunakan sebagai penyimpanan data tambahan.
 
 ## Blok Diagram
+![blok-diagram](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/5de60579-8eb1-49ba-956a-eee95a36ae92)
 Prinsip kerja dari sistem pendeteksi kebocoran gas yaitu dimulai dengan sistem pertama kali digunakan dimana sumber daya berasal dari baterai. Ketika tidak terdeteksi kebocoran gas, maka LED hijau akan selalu menyala. ketika kebocoran gas terdeteksi oleh sensor MQ-2 dengan threshold yang telah diganti pada push button 1, maka speaker mengeluarkan audio berdasarkan banyaknya gas yang terdeteksi. Audio yang digunakan ada 2 macam yaitu ketika masih terdeteksi sedikit gas, maka speaker mengeluarkan suara "terdeteksi kebocoran gas hati-hati siaga" dan ketika gas yang terdeteksi semakin banyak, maka speaker mengeluarkan suara "bahaya, bahaya, bahaya terdeteksi kebocoran gas". Ketika speaker berbunyi, yang artinya sudah terdeteksi kebocoran gas, maka LED merah juga ikut menyala. Kemudian pada LCD OLED menampilkan informasi threshold dan status ada tidaknya kebocoran. Untuk mematikan speaker, digunakan push button 2 dan LED hijau kembali menyala yang berarti kondisi sudah diatasi atau sudah aman.
 
 ## Konsep Simulasi
