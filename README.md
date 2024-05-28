@@ -28,6 +28,7 @@ https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/16863
 
 
 
+
 ## Skematik Rangkaian
 Berikut ini adalah hasil skematik rangkaian sistem pendeteksi kebocoran gas menggunakan software KiCad.
 
@@ -39,6 +40,7 @@ Berikut adalah link tutorial dalam pembuatan skematik menggunakan KiCad bisa dil
 
 
 ## Desain 3D
+[Desain 3D](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Desain%203D "Desain 3D")
 Berikut ini adalah hasil desain 3D :
 1. Desain 3D Casing
 ![WhatsApp Image 2024-05-21 at 08 23 37 (1)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a8f32070-f779-429f-9d4e-500686a4b812)
@@ -64,11 +66,12 @@ https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/91182
 
 
 ## Audio Project
+[Audio Project](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Audio_Project "Audio Project")
 Terdapat 2 mode audio sebagai deteksi adanya kebocoran gas, yaitu :
 1. Terdeteksi kebocoran gas hati-hati siaga
 2. Bahaya, bahaya, bahaya terdeteksi kebocoran gas
 
-Berikut hasil pembuatan audio dengan hasil editnya menggunakan software Audacity yang kemudian didapatkan file raw yang dibuka melalui software HxD untuk memperoleh datanya dan didapatkan program bahasa C. Program bahasa C tersebut digunakan untuk memrogram Arduino ATMega 2560 agar audio berfungsi. Berikut hasil dokumentasinya :
+Berikut hasil pembuatan audio dengan hasil editnya menggunakan software Audacity yang kemudian didapatkan file raw yang dibuka melalui software HxD untuk memperoleh datanya dan didapatkan program bahasa C. Program bahasa C tersebut digunakan untuk memrogram Arduino ATMega 2560 agar audio berfungsi. Berikut hasil dokumentasinya  :
 1. Terdeteksi kebocoran gas hati-hati siaga
 ![audio1 auda](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/db14e100-4098-4b76-860f-b313bf87644a)
 ![audio1 hxd](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/29da9884-2d4c-4708-83c8-867e1dda656a)
@@ -87,7 +90,7 @@ Hasil audio sebelum dan sesudah diedit menggunakan software Audacity [di sini](h
    File Audio Project bisa diakses melalui link [berikut.](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Audio_Project "berikut.")
 
 ## Proses Pengerjaan
-Berikut dokumentasi pada proses pengerjaan.
+Berikut dokumentasi pada proses pengerjaan. [Dokumentasi](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Dokumentasi "Dokumentasi")
 1. Studi Literatur
    ![Studi Literatur](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/e9ad544b-3647-4cb4-966b-386ff4137156)
 2. Pengujian Sistem Pada Software 
@@ -109,3 +112,8 @@ Berikut dokumentasi pada proses pengerjaan.
 10. Publikasi GitHub
    ![Publikasi pada Github](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/61307e4c-8f1c-4800-a24c-95b3918444b6)
 
+## Hasil
+1. PCB Print
+   ![Desain PCB](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/cc4efcfb-a59f-4487-8c4c-743b52c8caa1)
+2. 3D Print
+   ![Hasil Desain 3D](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/f10de660-c18d-428b-9cc5-54c10c6ddce9)
