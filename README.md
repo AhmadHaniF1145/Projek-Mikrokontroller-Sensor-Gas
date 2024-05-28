@@ -48,7 +48,7 @@ Berikut ini adalah hasil desain 3D :
 4. Desain 3D PCB tanpa Komponen
 ![3D Image tanpa komponen](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/1d6cba32-6652-4590-9f34-5f4ce87ad227)
 
-Berikut adalah tutorial dalam pembuatan desain PCB menggunakan KiCad pada proyek ini. Bisa klik link [berikut.](https://youtu.be/dg8yomkr-xE "berikut.")
+Berikut adalah tutorial dalam pembuatan desain PCB menggunakan KiCad pada proyek ini. Bisa klik link [berikut.](https://youtu.be/dg8yomkr-xE "berikut."). Dan file bisa diakses melalui link [berikut.](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/PCB%20Board/Progress%204%20Final/PCB%20Master "berikut.")
 
 
 ## Informasi Penempatan Modul dan Komponen
