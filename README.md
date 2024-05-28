@@ -24,8 +24,7 @@ Dan Beberapa komponen pasif seperti resistor yang salah satunya digunakan sebaga
 Berikut adalah skematik breadboard untuk simulasi menggunakan TinkerCad yang menggunakan Arduino Uno.
 
 
-https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a314cbf1-b626-474a-bebc-0097b7193cea
-
+https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/c68b0559-28a6-41bc-bea3-4cfa7fe1158b
 
 
 
