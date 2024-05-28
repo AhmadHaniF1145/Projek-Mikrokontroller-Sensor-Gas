@@ -38,6 +38,10 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 9. IC SPI Flash W25Q32JVSSIQ (4MB)
 
 Dan Beberapa komponen pasif seperti resistor yang salah satunya digunakan sebagai pembatas arus pada LED indikator, dan kapasitor yang digunakan pada blok rangkaian SPI Flash Eksternal yang digunakan sebagai penyimpanan data tambahan.
+
+## Blok Diagram
+Prinsip kerja dari sistem pendeteksi kebocoran gas yaitu dimulai dengan sistem pertama kali digunakan dimana sumber daya berasal dari baterai. Ketika tidak terdeteksi kebocoran gas, maka LED hijau akan selalu menyala. ketika kebocoran gas terdeteksi oleh sensor MQ-2 dengan threshold yang telah diganti pada push button 1, maka speaker mengeluarkan audio berdasarkan banyaknya gas yang terdeteksi. Audio yang digunakan ada 2 macam yaitu ketika masih terdeteksi sedikit gas, maka speaker mengeluarkan suara "terdeteksi kebocoran gas hati-hati siaga" dan ketika gas yang terdeteksi semakin banyak, maka speaker mengeluarkan suara "bahaya, bahaya, bahaya terdeteksi kebocoran gas". Ketika speaker berbunyi, yang artinya sudah terdeteksi kebocoran gas, maka LED merah juga ikut menyala. Kemudian pada LCD OLED menampilkan informasi threshold dan status ada tidaknya kebocoran. Untuk mematikan speaker, digunakan push button 2 dan LED hijau kembali menyala yang berarti kondisi sudah diatasi atau sudah aman.
+
 ## Konsep Simulasi
 Berikut adalah skematik breadboard untuk simulasi menggunakan TinkerCad yang menggunakan Arduino Uno.
 
