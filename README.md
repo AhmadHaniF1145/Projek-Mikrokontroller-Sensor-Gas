@@ -82,8 +82,7 @@ Hasil audio sebelum dan sesudah diedit menggunakan software Audacity [di sini](h
 
    https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/8abb6570-371c-4412-ba63-2867d9131914
 
-
-
+   File bisa diakses melalui link [berikut.](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Audio_Project "berikut.")
 ## Proses Pengerjaan
 Berikut dokumentasi pada proses pengerjaan.
 1. Dokumentasi README.md
