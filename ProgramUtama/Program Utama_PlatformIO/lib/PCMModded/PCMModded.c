@@ -131,7 +131,7 @@ void stopPlayback() {
   TCCR1B &= ~_BV(CS10);
   
   // Disable the PWM timer.
-  TCCR0B &= ~_BV(CS00);
+  //TCCR0B &= ~_BV(CS00);
   
   digitalWrite(speakerPin, LOW);
 }

@@ -9,7 +9,7 @@
 #include <Adafruit_SSD1306.h>
 #include <Adafruit_GFX.h>
 
-#include <PinChangeInterrupt.h>
+//#include <PinChangeInterrupt.h>
 
 #include "audio1.h"
 #include "audio2.h"
@@ -29,12 +29,17 @@ void ISR1() {
   delay(3000);
 }
 
+boolean playing(void)
+{
+  return TIMSK1 & _BV(OCIE1A);
+}
+
 void setup() {
   pinMode(redLed, OUTPUT);
   pinMode(greenLed, OUTPUT);
 
   pinMode(ButtonInt, INPUT);
-  attachInterrupt(digitalPinToInterrupt(ButtonInt), ISR1, CHANGE);
+  //attachInterrupt(digitalPinToInterrupt(ButtonInt), ISR1, CHANGE);
 
   pinMode(A12, INPUT);
 
@@ -63,7 +68,8 @@ void loop() {
     digitalWrite(redLed, HIGH);
     digitalWrite(greenLed, LOW);
     startPlayback(audio1, sizeof(audio1));
-    //stopPlayback();
+    while (playing());
+    
   }
   else
   {
