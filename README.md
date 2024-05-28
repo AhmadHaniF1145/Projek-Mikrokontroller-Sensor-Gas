@@ -4,8 +4,7 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 
 `WORKSHOP MIKROKONTROLLER - PROGRAM STUDI TEKNIK ELEKTRONIKA - POLITEKNIK ELEKTRONIKA NEGERI SURABAYA`
 
-`DOSEN PENGAMPU : Akhmad Hendriawan ST, MT
-NIP. 197501272002121003`
+`DOSEN PENGAMPU : Akhmad Hendriawan ST, MT [\R] NIP. 197501272002121003`
 
 ## Daftar Isi
 - [Komponen Yang Digunakan](#Komponen-Yang-Digunakan)
