@@ -16,13 +16,19 @@
 
 int redLed = 36;
 int greenLed = 42;
-int smokeInAnalog = A0;
-int sensorThres = 500;
+//int smokeInAnalog = A0;
+int sensorThres = 600;
+int bacaAsap = 0;
 
 const int ButtonInt = 5;
 
 #define OLED_RESET -1
 Adafruit_SSD1306 display(OLED_RESET);
+
+void ISR1() {
+  stopPlayback();
+  delay(3000);
+}
 
 void setup() {
   pinMode(redLed, OUTPUT);
@@ -31,9 +37,9 @@ void setup() {
   pinMode(ButtonInt, INPUT);
   attachInterrupt(digitalPinToInterrupt(ButtonInt), ISR1, CHANGE);
 
-  pinMode(smokeInAnalog, INPUT);
+  pinMode(A12, INPUT);
 
-  display.begin(SSD1306_SWITCHCAPVCC, 0x3D);
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.clearDisplay();
   display.display();
 
@@ -41,7 +47,7 @@ void setup() {
 }
 
 void loop() {
-  int bacaAsap = analogRead(smokeInAnalog);
+  bacaAsap = analogRead(A12);
 
   Serial.print("Pin A0: ");
   Serial.println(bacaAsap);
@@ -58,17 +64,14 @@ void loop() {
     digitalWrite(redLed, HIGH);
     digitalWrite(greenLed, LOW);
     startPlayback(audio1, sizeof(audio1));
-
+    //stopPlayback();
   }
   else
   {
     digitalWrite(redLed, LOW);
     digitalWrite(greenLed, HIGH);
   }
-  delay(10);
+
+  delay(300);
 }
 
-void ISR1() {
-  stopPlayback();
-  delay(3000);
-}
