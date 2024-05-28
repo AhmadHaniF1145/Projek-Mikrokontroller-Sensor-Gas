@@ -33,6 +33,8 @@ Berikut ini adalah hasil skematik rangkaian sistem pendeteksi kebocoran gas meng
 
 ![Schematic - Final](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/96289624/577b15af-4e1f-4909-9a41-ec3f98f00416)
 
+Berikut adalah link tutorial dalam pembuatan skematik menggunakan KiCad bisa dilihat pada video [berikut.](https://youtu.be/a5kBzt2_dH4 "berikut.")
+
 
 
 ## Desain 3D
@@ -45,6 +47,7 @@ Berikut ini adalah hasil desain 3D :
 ![3D Image dengan komponen (tidak lengkap)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/b7f1c2a8-1838-49a4-97ea-847170ede539)
 4. Desain 3D PCB tanpa Komponen
 ![3D Image tanpa komponen](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/1d6cba32-6652-4590-9f34-5f4ce87ad227)
+
 
 ## Informasi Penempatan Modul dan Komponen
 Tata letak dan informasi terkait penempatan Modul dan Komponen untuk memudahkan pengguna dalam melakukan perakitan
