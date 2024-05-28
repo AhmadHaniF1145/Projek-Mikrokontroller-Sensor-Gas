@@ -21,11 +21,12 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 
 Dan Beberapa komponen pasif seperti resistor yang salah satunya digunakan sebagai pembatas arus pada LED indikator, dan kapasitor yang digunakan pada blok rangkaian SPI Flash Eksternal yang digunakan sebagai penyimpanan data tambahan.
 ## Konsep Simulasi
-Berikut adalah skematik breadboard untuk simulasi menggunakan TinkerCad yang menggunakan Arduino Uno
+Berikut adalah skematik breadboard untuk simulasi menggunakan TinkerCad yang menggunakan Arduino Uno.
 
-![Simulasi Sistem Pendeteksi Gas Sederhana](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/39eb430e-0b18-4c78-bdcf-787a9f2c64ee)
 
-Dengan hasil simulasi seperti ditunjukkan pada [video YouTube ini.](https://youtu.be/8_7WZJKQg08 "video YouTube ini.")
+https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a314cbf1-b626-474a-bebc-0097b7193cea
+
+
 
 
 ## Skematik Rangkaian
@@ -33,12 +34,15 @@ Berikut ini adalah hasil skematik rangkaian sistem pendeteksi kebocoran gas meng
 
 ![Schematic - Final](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/96289624/577b15af-4e1f-4909-9a41-ec3f98f00416)
 
+Berikut adalah link tutorial dalam pembuatan skematik menggunakan KiCad bisa dilihat pada video [berikut.](https://youtu.be/a5kBzt2_dH4 "berikut.") Untuk semua file yang dibutuhkan terkait skematik rangkaian bisa diakses pada link [berikut.](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/PCB%20Board "berikut.")
+
+
 
 
 ## Desain 3D
 Berikut ini adalah hasil desain 3D :
 1. Desain 3D Casing
-![Casing_3D_2024-May-12_09-15-01AM-000_CustomizedView60361281327](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/e26019c6-1331-412f-831c-df3e6e7c58ba)
+![WhatsApp Image 2024-05-21 at 08 23 37 (1)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a8f32070-f779-429f-9d4e-500686a4b812)
 2. Desain 3D Casing + Komponen
 ![Casing_3D_2024-May-12_09-13-18AM-000_CustomizedView19460723771](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/9b444903-7310-4619-b300-ca68e863c4d1)
 3. Desain 3D PCB dengan Komponen
@@ -46,9 +50,18 @@ Berikut ini adalah hasil desain 3D :
 4. Desain 3D PCB tanpa Komponen
 ![3D Image tanpa komponen](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/1d6cba32-6652-4590-9f34-5f4ce87ad227)
 
+Berikut adalah tutorial dalam pembuatan desain PCB menggunakan KiCad pada proyek ini. Bisa klik link [berikut.](https://youtu.be/dg8yomkr-xE "berikut."). Dan file bisa diakses melalui link [berikut.](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/PCB%20Board/Progress%204%20Final/PCB%20Master "berikut.")
+
+
 ## Informasi Penempatan Modul dan Komponen
 Tata letak dan informasi terkait penempatan Modul dan Komponen untuk memudahkan pengguna dalam melakukan perakitan
 ![Configuration](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/96289624/7aa48c24-adea-40a0-a9db-cbcecc07b824)
+
+## Manufacture Drawing untuk Casing
+Berikut adalah detail ukuran casing untuk kebutuhan manufaktur
+![Casing 3D Drawing v3](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/91182185/6e529cb8-5fef-47b7-8c0e-fb82138d0f7d)
+
+https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/91182185/3b76fa04-874f-4a73-a389-29a3c4dec217
 
 
 ## Audio Project
@@ -69,26 +82,30 @@ Hasil audio sebelum dan sesudah diedit menggunakan software Audacity [di sini](h
 Hasil audio sebelum dan sesudah diedit menggunakan software Audacity [di sini](https://youtu.be/l1GMS38mKNk "di sini").
 3. Video Tutorial : Langkah - Langkah Convert Audio Ke Bahasa C
 
-https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/8abb6570-371c-4412-ba63-2867d9131914
+   https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/8abb6570-371c-4412-ba63-2867d9131914
 
 
+   File Audio Project bisa diakses melalui link [berikut.](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Audio_Project "berikut.")
 
 ## Proses Pengerjaan
 Berikut dokumentasi pada proses pengerjaan.
-1. Dokumentasi README.md
-![WhatsApp Image 2024-05-20 at 15 47 16](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a7ab4589-1d05-4313-b617-d1f20b48bc91)
-2. Pembelian komponen 
-![WhatsApp Image 2024-05-20 at 15 34 41](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/5fd885cd-d230-4474-9eed-17eb4611c2f8)
-3. Cetak PCB dan berikut hasilnya
-![WhatsApp Image 2024-05-18 at 21 22 45](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/d4bc5c35-9c43-4529-b818-43a35a189968)
-4. Cetak desain 3D dan berikut hasilnya
-![WhatsApp Image 2024-05-20 at 15 28 34](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/af957f27-7b81-4d70-8b82-c247035eec66)
-5. Pembuatan audio project
-![WhatsApp Image 2024-05-20 at 15 47 16 (1)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a41125d5-13c3-4836-8066-0919d1396c72)
-6. Penyolderan komponen pada PCB
-![WhatsApp Image 2024-05-20 at 15 07 58](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/b45102b9-e32f-40ad-91d2-b0300cd6ee58)
-7. Pengemasan
-![WhatsApp Image 2024-05-20 at 15 58 38](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/22f4a12a-be4c-4ba2-b998-24e26cb7c9ab)
-8. Pembuatan program Aduino ATMega 2560
-9. Finishing
+1. Studi Literatur
+   ![Studi Literatur](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/e9ad544b-3647-4cb4-966b-386ff4137156)
+2. Pengujian Sistem Pada Software 
+   ![Pengujian Pada Software](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/58fa7de5-7648-4a31-a1eb-2987f2e24bda)
+3. Pembuatan Desain Skematik dan PCB Board
+   ![Pembuatan Skematik dan PCB Board](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/a61b2d4b-8f7d-4307-8d9f-82e97e848a13)
+4. Pembelian Hardware
+   ![Komponen yang Sudah Dibeli](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/aad3c841-9530-4f73-ab77-41c3650a7310)
+5. Proses Perakitan dan Soldering
+   ![Proses Penyolderan](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/34c81782-c5ae-4519-846f-b6ffb496b3dc)
+6. Proses Pembuatan Audio 
+   ![Pembuatan Audio Project](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/5acbe0c3-b9a7-447f-bf3b-ef61c6bcfbeb)
+
+7. Proses Pemrograman Arduino
+
+8. Pengujian Alat
+   
+9. Publikasi GitHub
+   ![Publikasi pada Github](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/61307e4c-8f1c-4800-a24c-95b3918444b6)
 
