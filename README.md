@@ -95,17 +95,18 @@ Berikut dokumentasi pada proses pengerjaan.
    ![Pengujian Pada Software](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/58fa7de5-7648-4a31-a1eb-2987f2e24bda)
 3. Pembuatan Desain Skematik dan PCB Board
    ![Pembuatan Skematik dan PCB Board](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/a61b2d4b-8f7d-4307-8d9f-82e97e848a13)
-4. Pembelian Hardware
+4. Pembuatan 3D Desain
+   ![Pembuatan 3D](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/43f4b9ed-8e2d-469c-9ec7-2e30baed2ef1)
+5. Pembelian Hardware
    ![Komponen yang Sudah Dibeli](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/aad3c841-9530-4f73-ab77-41c3650a7310)
-5. Proses Perakitan dan Soldering
+6. Proses Perakitan dan Soldering
    ![Proses Penyolderan](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/34c81782-c5ae-4519-846f-b6ffb496b3dc)
-6. Proses Pembuatan Audio 
+7. Proses Pembuatan Audio 
    ![Pembuatan Audio Project](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/5acbe0c3-b9a7-447f-bf3b-ef61c6bcfbeb)
-
-7. Proses Pemrograman Arduino
-
-8. Pengujian Alat
-   
-9. Publikasi GitHub
+8. Proses Pemrograman Arduino
+   ![Pembuataan Program](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/491c5d70-fe31-4a7a-b16a-53aa4eae5b59)
+9. Pengujian Alat
+   ![Pengujian Alat](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/153d02da-0511-4297-af1a-a1f9659424ae)
+10. Publikasi GitHub
    ![Publikasi pada Github](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/61307e4c-8f1c-4800-a24c-95b3918444b6)
 
