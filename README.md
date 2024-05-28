@@ -1,3 +1,6 @@
+<div style="text-align: justify">
+**WORKSHOP MIKROKONTROLER**
+</div>
 ![SISTEM PENDETEKSI KEBOCORAN GAS (2)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/e76d59b6-fd9b-4618-88f2-fbd6e8390744)
 Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk mendeteksi dan memberi peringatan tentang kebocoran gas. Peringatan yang dihasilkan adalah dalam bentuk audio sesuai gas yang dideteksi beserta tingkat bahayanya.
 ## Daftar Isi
@@ -7,7 +10,7 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 - [Informasi Penempatan Modul dan Komponen](#Informasi-Penempatan-Modul-dan-Komponen)
 - [Audio Project](#Audio-Project)
 - [Proses Pengerjaan](#Proses-Pengerjaan)
-asdas
+
 ## Komponen Yang Digunakan
 1. Arduino Mega 2560
 2. Gas Sensor MQ2
