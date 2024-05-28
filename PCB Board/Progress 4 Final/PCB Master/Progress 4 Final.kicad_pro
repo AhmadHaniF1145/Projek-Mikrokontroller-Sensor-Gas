@@ -448,7 +448,22 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "3V3": "rgb(255, 127, 108)",
+      "5V": "rgb(255, 163, 94)",
+      "A0": "rgb(188, 255, 97)",
+      "MISO": "rgb(40, 193, 255)",
+      "MOSI": "rgb(37, 23, 255)",
+      "Net-(A1-PadD4)": "rgb(158, 130, 255)",
+      "Net-(A1-PadD5)": "rgb(158, 130, 255)",
+      "Net-(D2-A)": "rgb(255, 77, 146)",
+      "Net-(D2-K)": "rgb(255, 77, 146)",
+      "Net-(D3-A)": "rgb(39, 255, 46)",
+      "Net-(D3-K)": "rgb(39, 255, 46)",
+      "PB7": "rgb(255, 108, 239)",
+      "SCL_OLED": "rgb(145, 255, 249)",
+      "SDA_OLED": "rgb(145, 255, 249)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
