@@ -65,7 +65,7 @@ void putarSuara() {
 
 void ThresholdCheck() {
   if (digitalRead(tombolKiri) == 0) {
-    delay(300);
+    delay(500);
     thresholdIndex++;
     if (thresholdIndex == 3) {
       thresholdIndex = 0;
