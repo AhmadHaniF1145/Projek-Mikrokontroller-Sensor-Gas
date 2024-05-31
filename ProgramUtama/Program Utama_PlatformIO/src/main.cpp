@@ -18,7 +18,8 @@ int redLed = 36;
 int greenLed = 42;
 int tombolKanan = 5;
 int tombolKiri = 4;
-int sensorThres = 600;
+int sensorThres[] = {600, 800, 400};
+int thresholdIndex = 0;
 int bacaAsap = 0;
 
 boolean loopSound = false;
@@ -43,13 +44,23 @@ boolean playing(void)
 void putarSuara() {
   loopSound = true;
   while (loopSound) {
-    int buttonState = digitalRead(tombolKanan);
-    if (buttonState) {
+    
+    if (digitalRead(tombolKanan) == 0) {
       loopSound = false;
+      return;
     }
 
     startPlayback(audio1, sizeof(audio1));
     while (playing());
+  }
+}
+
+void ThresholdCheck() {
+  if (digitalRead(tombolKiri) == 0) {
+    thresholdIndex++;
+    if (thresholdIndex == 3) {
+      thresholdIndex = 0;
+    }
   }
 }
 
@@ -86,14 +97,17 @@ void loop() {
   display.setCursor(0, 0);
   display.print(bacaAsap);
   display.display();
+
+  ThresholdCheck();
   
-  if (bacaAsap > sensorThres)
+  if (bacaAsap > sensorThres[thresholdIndex])
   {
     digitalWrite(redLed, HIGH);
     digitalWrite(greenLed, LOW);
 
     putarSuara();
-    
+    //startPlayback(audio1, sizeof(audio1));
+    //while (playing());
     
   }
   else
