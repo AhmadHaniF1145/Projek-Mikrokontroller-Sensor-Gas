@@ -16,13 +16,19 @@
 
 int redLed = 36;
 int greenLed = 42;
+int tombolKanan = 5;
+int tombolKiri = 4;
 int sensorThres = 600;
 int bacaAsap = 0;
+
+boolean loopSound = false;
 
 const int ButtonInt = 5;
 
 #define OLED_RESET -1
 Adafruit_SSD1306 display(OLED_RESET);
+
+//===========================================================================
 
 void ISR1() {
   stopPlayback();
@@ -34,6 +40,21 @@ boolean playing(void)
   return TIMSK1 & _BV(OCIE1A);
 }
 
+void putarSuara() {
+  loopSound = true;
+  while (loopSound) {
+    int buttonState = digitalRead(tombolKanan);
+    if (buttonState) {
+      loopSound = false;
+    }
+
+    startPlayback(audio1, sizeof(audio1));
+    while (playing());
+  }
+}
+
+// ===============================================================================
+
 void setup() {
   pinMode(redLed, OUTPUT);
   pinMode(greenLed, OUTPUT);
@@ -42,6 +63,9 @@ void setup() {
   //attachInterrupt(digitalPinToInterrupt(ButtonInt), ISR1, CHANGE);
 
   pinMode(A12, INPUT);
+
+  pinMode(tombolKanan, INPUT_PULLUP);
+  pinMode(tombolKiri, INPUT_PULLUP);
 
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.clearDisplay();
@@ -67,8 +91,9 @@ void loop() {
   {
     digitalWrite(redLed, HIGH);
     digitalWrite(greenLed, LOW);
-    startPlayback(audio1, sizeof(audio1));
-    while (playing());
+
+    putarSuara();
+    
     
   }
   else
