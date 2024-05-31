@@ -5,6 +5,8 @@
 // pada pin 13 Timer 0, bukan pada bawaannya yaitu pin 10 Timer 2
 // Modded by : Ilham Kurniawan
 
+#include <EEPROM.h>
+
 #include <Wire.h>
 #include <Adafruit_SSD1306.h>
 #include <Adafruit_GFX.h>
@@ -50,18 +52,26 @@ void putarSuara() {
       return;
     }
 
-    startPlayback(audio1, sizeof(audio1));
+    if (thresholdIndex == 1) {
+      startPlayback(audio2, sizeof(audio2));
+    }
+    else {
+      startPlayback(audio1, sizeof(audio1));
+    }
+    
     while (playing());
   }
 }
 
 void ThresholdCheck() {
   if (digitalRead(tombolKiri) == 0) {
+    delay(300);
     thresholdIndex++;
     if (thresholdIndex == 3) {
       thresholdIndex = 0;
     }
   }
+  return;
 }
 
 // ===============================================================================
@@ -87,19 +97,23 @@ void setup() {
 
 void loop() {
   bacaAsap = analogRead(A12);
+  ThresholdCheck();
 
   Serial.print("Pin A0: ");
   Serial.println(bacaAsap);
 
   display.clearDisplay();
-  display.setTextSize(2);
+  display.setTextSize(1);
   display.setTextColor(SSD1306_WHITE);
-  display.setCursor(0, 0);
+  display.setCursor(50, 10);
   display.print(bacaAsap);
+  display.setCursor(0, 0);
+  display.print("Threshold = ");
+  display.setCursor(70, 0);
+  display.print(sensorThres[thresholdIndex]);
   display.display();
 
-  ThresholdCheck();
-  
+
   if (bacaAsap > sensorThres[thresholdIndex])
   {
     digitalWrite(redLed, HIGH);
