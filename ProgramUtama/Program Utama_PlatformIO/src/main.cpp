@@ -21,7 +21,7 @@ int greenLed = 42;
 int tombolKanan = 5;
 int tombolKiri = 4;
 int sensorThres[] = {600, 800, 400};
-int thresholdIndex = 0;
+int thresholdIndex = eeprom_read_byte((uint8_t*)0);
 int bacaAsap = 0;
 
 boolean loopSound = false;
@@ -71,9 +71,8 @@ void ThresholdCheck() {
     if (thresholdIndex == 3) {
       thresholdIndex = 0;
     }
+    eeprom_write_byte((uint8_t*)0, thresholdIndex);
   }
-
-  eeprom_write_byte((uint8_t*)0, thresholdIndex);
   return;
 }
 
