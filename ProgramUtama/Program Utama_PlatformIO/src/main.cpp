@@ -52,6 +52,7 @@ void putarSuara() {
       return;
     }
 
+    int pilihanLagu = eeprom_read_byte((uint8_t*)0);
     if (thresholdIndex == 1) {
       startPlayback(audio2, sizeof(audio2));
     }
@@ -71,6 +72,8 @@ void ThresholdCheck() {
       thresholdIndex = 0;
     }
   }
+
+  eeprom_write_byte((uint8_t*)0, thresholdIndex);
   return;
 }
 
