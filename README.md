@@ -133,10 +133,10 @@ Hasil audio sebelum dan sesudah diedit menggunakan software Audacity [di sini](h
 
 ## Proses Pengerjaan
 Berikut dokumentasi pada proses pengerjaan. [Dokumentasi](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Dokumentasi "Dokumentasi")
-1. Studi Literatur
-   ![Studi Literatur](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/e9ad544b-3647-4cb4-966b-386ff4137156)
-2. Pengujian Sistem Pada Software 
-   ![Pengujian Pada Software](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/58fa7de5-7648-4a31-a1eb-2987f2e24bda)
+1. Studi Literatur <br>
+   <img src="https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/e9ad544b-3647-4cb4-966b-386ff4137156" width="600"/><br>
+2. Pengujian Sistem Pada Software <br>
+   <img src="https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/58fa7de5-7648-4a31-a1eb-2987f2e24bda" width="600"/><br>
 3. Pembuatan Desain Skematik dan PCB Board
    ![Pembuatan Skematik dan PCB Board](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/a61b2d4b-8f7d-4307-8d9f-82e97e848a13)
 4. Pembuatan 3D Desain
