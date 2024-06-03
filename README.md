@@ -88,6 +88,19 @@ Berikut adalah detail ukuran casing untuk kebutuhan manufaktur
 https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/91182185/3b76fa04-874f-4a73-a389-29a3c4dec217
 
 
+## Program
+#### Timer 0
+Projek ini memakai Timer 0 untuk memainkan suara yang disimpan pada Flash Memory (dibahas lebih lanjut pada [bagian audio project](## Audio Project "bagian audio project")). Berikut adalah baris kode utama untuk memainkan audio melalui sinyal PWM melalui Timer 0.
+`OCR0A = sounddata_length + lastSample - sample;`
+
+
+#### EEPROM
+Alat ini dapat mendeteksi gas dengan Threshold (batas deteksi) yang berbeda sesuai yang diinginkan. Pengguna dapat menekan tombol kiri untuk mengganti mode Threshold. Mode yang diatur akan disimpan pada EEPROM.
+`eeprom_write_byte((uint8_t*)0, thresholdIndex);`
+
+Kemudian dibaca menggunakan
+`int pilihanLagu = eeprom_read_byte((uint8_t*)0);`
+
 ## Audio Project
 [Audio Project](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Audio_Project "Audio Project")
 Terdapat 2 mode audio sebagai deteksi adanya kebocoran gas, yaitu :
