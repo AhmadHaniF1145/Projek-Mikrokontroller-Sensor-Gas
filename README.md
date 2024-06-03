@@ -73,6 +73,8 @@ Berikut ini adalah hasil [desain 3D](https://github.com/AhmadHaniF1145/Projek-Mi
 4. Desain 3D PCB tanpa Komponen
 ![3D Image tanpa komponen](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/1d6cba32-6652-4590-9f34-5f4ce87ad227)
 
+Berikut adalah video tutorial pembuatan desain casing menggunakan Autodesk Fusion versi sederhana. Klik link [berikut.]([https://www.youtube.com/watch?v=2gopSfegvmg "berikut.")
+
 Berikut adalah tutorial dalam pembuatan desain PCB menggunakan KiCad pada proyek ini. Bisa klik link [berikut.](https://youtu.be/dg8yomkr-xE "berikut.")
 
 ## Informasi Penempatan Modul dan Komponen
@@ -128,7 +130,7 @@ Berikut dokumentasi pada proses pengerjaan. [Dokumentasi](https://github.com/Ahm
 8. Proses Pemrograman Arduino
    ![Pembuataan Program](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/491c5d70-fe31-4a7a-b16a-53aa4eae5b59)
 9. Pengujian Alat
-   ![Pengujian Alat](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/153d02da-0511-4297-af1a-a1f9659424ae)
+   GAMBAR MENYUSUL
 10. Publikasi GitHub
    ![Publikasi pada Github](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/61307e4c-8f1c-4800-a24c-95b3918444b6)
 
