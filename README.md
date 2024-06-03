@@ -24,6 +24,7 @@ Sistem pendeteksi kebocoran gas adalah sistem elektronik yang dirancang untuk me
 - [Audio Project](#Audio-Project)
 - [Proses Pengerjaan](#Proses-Pengerjaan)
 - [Hasil](#Hasil)
+- [Cara Penggunaan Alat](#Cara Penggunaan Alat)
 
 ## Komponen Yang Digunakan
 1. Arduino Mega 2560
@@ -40,7 +41,7 @@ Dan Beberapa komponen pasif seperti resistor yang salah satunya digunakan sebaga
 
 ## Blok Diagram
 ![blok-diagram](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/5de60579-8eb1-49ba-956a-eee95a36ae92)
-Prinsip kerja dari sistem pendeteksi kebocoran gas yaitu dimulai dengan sistem pertama kali digunakan dimana sumber daya berasal dari baterai. Ketika tidak terdeteksi kebocoran gas, maka LED hijau akan selalu menyala. ketika kebocoran gas terdeteksi oleh sensor MQ-2 dengan threshold yang telah diganti pada push button 1, maka speaker mengeluarkan audio berdasarkan banyaknya gas yang terdeteksi. Audio yang digunakan ada 2 macam yaitu ketika masih terdeteksi sedikit gas, maka speaker mengeluarkan suara "terdeteksi kebocoran gas hati-hati siaga" dan ketika gas yang terdeteksi semakin banyak, maka speaker mengeluarkan suara "bahaya, bahaya, bahaya terdeteksi kebocoran gas". Ketika speaker berbunyi, yang artinya sudah terdeteksi kebocoran gas, maka LED merah juga ikut menyala. Kemudian pada LCD OLED menampilkan informasi threshold dan status ada tidaknya kebocoran. Untuk mematikan speaker, digunakan push button 2 dan LED hijau kembali menyala yang berarti kondisi sudah diatasi atau sudah aman.
+Prinsip kerja dari sistem pendeteksi kebocoran gas yaitu dimulai dengan sistem pertama kali digunakan dimana sumber daya berasal dari baterai. Ketika tidak terdeteksi kebocoran gas, maka LED hijau akan selalu menyala. Ketika kebocoran gas terdeteksi oleh sensor MQ-2 dengan threshold yang telah disetting oleh push button 1, maka speaker mengeluarkan audio. Untuk informasi threshold yaitu threshold 400 dan 600 masih dalam level siaga dengan indikasi audio "terdeteksi kebocoran gas hati-hati siaga", kemudian threshold 800 sudah dalam level bahaya dengan indikasi audio "bahaya, bahaya, bahaya terdeteksi kebocoran gas". LCD OLED digunakan untuk menampilkan informasi threshold dan banyaknya gas yang terdeteksi. Jika gas yang terdeteksi melebihi threshold, maka speaker mengeluarkan audio dibarengi dengan LED merah yang juga ikut menyala. Untuk mematikan speaker, digunakan push button 2 dan LED hijau kembali menyala yang berarti kondisi sudah diatasi atau sudah aman.
 
 ## Konsep Simulasi
 Berikut adalah skematik breadboard untuk simulasi menggunakan TinkerCad yang menggunakan Arduino Uno.
@@ -136,3 +137,16 @@ Berikut dokumentasi pada proses pengerjaan. [Dokumentasi](https://github.com/Ahm
    ![Desain PCB](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/cc4efcfb-a59f-4487-8c4c-743b52c8caa1)
 2. 3D Print
    ![Hasil Desain 3D](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/f10de660-c18d-428b-9cc5-54c10c6ddce9)
+
+## Cara Penggunaan Alat
+1. Pastikan baterai dalam kondisi penuh kemudian pasang baterai pada tempatnya yaitu di dalam casing. Tutup kemasan dengan benar.
+2. Pasang LCD OLED di tempatnya yaitu di luar casing.
+3. Nyalakan power switch.
+4. Atur threshold sesuai kebutuhan menggunakan push button sebelah kanan. Untuk informasi threshold sebagai berikut.
+   Semakin besar nilai threshold maka kebocoran gas yang dideteksi semakin banyak dan bahaya.
+   Semakun kecil nilai threshold maka sedikit saja kebocoran gas dapat terdeteksi.
+6. Alat sudah siap digunakan untuk mendeteksi kebocoran gas dengan indikator LED hijau menyala jika tidak ada kebocoran gas yang terdeteksi.
+7. Apabila sensor telah mendeteksi gas melebihi threshold yang diatur, maka LED warna merah dan audio menyala berulaang-ulang tergantung threshold yang disetting.
+   threshold 400 dan 600 dalam level siaga dengan audio "Terdeteksi kebocoran gas hati-hati siaga"
+   threshold 800 dalam level bahaya dengan audio "Bahaya, bahaya, bahaya terdeteksi kebocoran gas"
+8. Audio bisa dimatikan dengan menekan push button sebelah kiri kemudian LED yang menyala berganti menjadi warna hijau kembali.
