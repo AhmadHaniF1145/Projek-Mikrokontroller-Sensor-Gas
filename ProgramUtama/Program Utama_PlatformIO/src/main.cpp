@@ -53,7 +53,7 @@ void putarSuara() {
     }
 
     int pilihanLagu = eeprom_read_byte((uint8_t*)0);
-    if (thresholdIndex == 1) {
+    if (pilihanLagu == 1) {
       startPlayback(audio2, sizeof(audio2));
     }
     else {

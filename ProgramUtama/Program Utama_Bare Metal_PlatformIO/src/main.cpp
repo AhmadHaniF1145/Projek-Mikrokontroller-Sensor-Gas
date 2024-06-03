@@ -49,8 +49,7 @@ boolean playing(void)
   return TIMSK1 & _BV(OCIE1A);
 }
 
-void putarSuara()
-{
+void putarSuara() {
   loopSound = true;
   while (loopSound)
   {
@@ -61,23 +60,21 @@ void putarSuara()
       return;
     }
 
-    if (thresholdIndex == 1)
-    {
+    int pilihanLagu = eeprom_read_byte((uint8_t*)0);
+    if (pilihanLagu == 1) {
       startPlayback(audio2, sizeof(audio2));
     }
-    else
-    {
+    else {
       startPlayback(audio1, sizeof(audio1));
     }
 
-    while (playing())
-      ;
+    while (playing());
   }
 }
 
 void ThresholdCheck()
 {
-  if (digitalRead(tombolKiri) == 0)
+  if (!(PORTG &= (1<<tombolKiri)))
   {
     delay(500);
     thresholdIndex++;
@@ -86,6 +83,8 @@ void ThresholdCheck()
       thresholdIndex = 0;
     }
   }
+
+  eeprom_write_byte((uint8_t*)0, thresholdIndex);
   return;
 }
 
@@ -117,11 +116,11 @@ int main(void)
   ADCSRA |= (1 << ADEN);
 
   while (1) {
-     ADCSRA |= (1<<ADSC);
+    ADCSRA |= (1<<ADSC);
     while (!(ADCSRA&(1<<ADIF)));
     ADCSRA |= (1<<ADIF);
     bacaAsap = ADCH;
-    
+
     ThresholdCheck();
 
     // Serial.print("Pin A0: ");
