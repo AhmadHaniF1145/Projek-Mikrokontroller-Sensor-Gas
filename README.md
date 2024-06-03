@@ -81,11 +81,11 @@ Asset 3D yang sudah jadi dapat di download pada [link Thingiverse berikut](https
 
 ## Informasi Penempatan Modul dan Komponen
 Tata letak dan informasi terkait penempatan Modul dan Komponen untuk memudahkan pengguna dalam melakukan perakitan <br>
-<img src="https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/96289624/7aa48c24-adea-40a0-a9db-cbcecc07b824" width="600"/><br>
+<img src="https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/96289624/7aa48c24-adea-40a0-a9db-cbcecc07b824"/><br>
 
 ## Manufacture Drawing untuk Casing
 Berikut adalah detail ukuran casing untuk kebutuhan manufaktur
-<img src="https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/91182185/6e529cb8-5fef-47b7-8c0e-fb82138d0f7d" width="600"/><br>
+<img src="https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/91182185/6e529cb8-5fef-47b7-8c0e-fb82138d0f7d"/><br>
 
 https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/91182185/3b76fa04-874f-4a73-a389-29a3c4dec217
 
