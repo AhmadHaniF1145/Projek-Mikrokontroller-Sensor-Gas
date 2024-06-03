@@ -85,7 +85,7 @@ Tata letak dan informasi terkait penempatan Modul dan Komponen untuk memudahkan 
 
 ## Manufacture Drawing untuk Casing
 Berikut adalah detail ukuran casing untuk kebutuhan manufaktur
-![Casing 3D Drawing v3](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/91182185/6e529cb8-5fef-47b7-8c0e-fb82138d0f7d)
+<img src="https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/91182185/6e529cb8-5fef-47b7-8c0e-fb82138d0f7d" width="600"/><br>
 
 https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/91182185/3b76fa04-874f-4a73-a389-29a3c4dec217
 
