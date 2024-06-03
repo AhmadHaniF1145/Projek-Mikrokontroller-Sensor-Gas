@@ -54,7 +54,7 @@ void putarSuara() {
   while (loopSound)
   {
 
-    if (digitalRead(tombolKanan) == 0)
+    if (!(PORTE &= (1<< tombolKanan)))
     {
       loopSound = false;
       return;
@@ -104,7 +104,6 @@ int main(void)
   display.display();
 
   // ADC A12
-
   ADCSRA |= (1 << ADPS2) | (1 << ADPS1);
   ADMUX |= (1 << ADLAR);
   ADMUX |= _BV(REFS0);
