@@ -66,8 +66,8 @@ Berikut adalah link tutorial dalam pembuatan skematik menggunakan KiCad bisa dil
 Berikut ini adalah hasil [desain 3D](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Desain%203D "Desain 3D") :
 1. Desain 3D Casing <br>
 <img src="https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a8f32070-f779-429f-9d4e-500686a4b812" width="600" height="380"/><br>
-2. Desain 3D Casing + Komponen <br>
-<img src="[https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/a8f32070-f779-429f-9d4e-500686a4b812](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/9b444903-7310-4619-b300-ca68e863c4d1)" width="600" height="380"/><br>
+2. Desain 3D Casing + Komponen
+![Casing_3D_2024-May-12_09-13-18AM-000_CustomizedView19460723771](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168633171/9b444903-7310-4619-b300-ca68e863c4d1)
 3. Desain 3D PCB dengan Komponen
 ![3D Image dengan komponen (tidak lengkap)](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/b7f1c2a8-1838-49a4-97ea-847170ede539)
 4. Desain 3D PCB tanpa Komponen
