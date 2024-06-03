@@ -73,9 +73,11 @@ Berikut ini adalah hasil [desain 3D](https://github.com/AhmadHaniF1145/Projek-Mi
 4. Desain 3D PCB tanpa Komponen
 ![3D Image tanpa komponen](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/168683498/1d6cba32-6652-4590-9f34-5f4ce87ad227)
 
-Berikut adalah video tutorial pembuatan desain casing menggunakan Autodesk Fusion versi sederhana. Klik link [berikut.]([https://www.youtube.com/watch?v=2gopSfegvmg "berikut.")
+Berikut adalah video tutorial pembuatan desain casing menggunakan Autodesk Fusion versi sederhana. Klik link [youtube berikut](https://youtu.be/2gopSfegvmg?si=Se-gvMHZY0zX1dgN "youtube berikut")
 
 Berikut adalah tutorial dalam pembuatan desain PCB menggunakan KiCad pada proyek ini. Bisa klik link [berikut.](https://youtu.be/dg8yomkr-xE "berikut.")
+
+Asset 3D yang sudah jadi dapat di download pada [link Thingiverse berikut](https://www.thingiverse.com/thing:6621092 "link Thingiverse berikut")
 
 ## Informasi Penempatan Modul dan Komponen
 Tata letak dan informasi terkait penempatan Modul dan Komponen untuk memudahkan pengguna dalam melakukan perakitan
@@ -89,6 +91,10 @@ https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/91182
 
 
 ## Program
+Program utama dari projek ini dibagi menjadi dua, yaitu :
+- [Arduino dengan C](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/ProgramUtama/Program%20Utama_PlatformIO "Arduino dengan C")
+- [Arduino dengan Bare Metal Programming.](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/ProgramUtama/Program%20Utama_Bare%20Metal_PlatformIO "Arduino dengan Bare Metal Programming.")
+
 #### Timer 0
 Projek ini memakai Timer 0 untuk memainkan suara yang disimpan pada Flash Memory (dibahas lebih lanjut pada [bagian audio project](## Audio Project "bagian audio project")). Berikut adalah baris kode utama untuk memainkan audio melalui sinyal PWM melalui Timer 0.
 `OCR0A = sounddata_length + lastSample - sample;`
@@ -100,6 +106,7 @@ Alat ini dapat mendeteksi gas dengan Threshold (batas deteksi) yang berbeda sesu
 
 Kemudian dibaca menggunakan
 `int pilihanLagu = eeprom_read_byte((uint8_t*)0);`
+
 
 ## Audio Project
 [Audio Project](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/Audio_Project "Audio Project")
