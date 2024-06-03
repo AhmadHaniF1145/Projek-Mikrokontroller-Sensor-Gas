@@ -16,10 +16,15 @@
 #include "audio1.h"
 #include "audio2.h"
 
-int redLed = 36;
-int greenLed = 42;
-int tombolKanan = 5;
-int tombolKiri = 4;
+#define redLed PC1
+#define greenLed PL7
+#define tombolKanan PE3
+#define tombolKiri PG5
+
+// int redLed = 36;
+// int greenLed = 42;
+// int tombolKanan = 5;
+// int tombolKiri = 4;
 int sensorThres[] = {600, 800, 400};
 int thresholdIndex = 0;
 int bacaAsap = 0;
@@ -76,24 +81,49 @@ void ThresholdCheck() {
 
 // ===============================================================================
 
-void setup() {
-  pinMode(redLed, OUTPUT);
-  pinMode(greenLed, OUTPUT);
-
-  pinMode(ButtonInt, INPUT);
-  //attachInterrupt(digitalPinToInterrupt(ButtonInt), ISR1, CHANGE);
-
-  pinMode(A12, INPUT);
-
-  pinMode(tombolKanan, INPUT_PULLUP);
-  pinMode(tombolKiri, INPUT_PULLUP);
+int main(void) {
+  DDRC |= (1 << redLed);
+  DDRL |= (1 << greenLed);
+  DDRE &= ~(1 << tombolKanan);
+  PORTE |= (1 << tombolKanan);
+  DDRG &= ~(1 << tombolKiri);
+  PORTG |= (1 << tombolKiri);
 
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.clearDisplay();
   display.display();
 
-  Serial.begin(9600);
+  // ADC A12
+  
+  ADCSRA |= (1 << ADPS2) | (1 << ADPS1);
+  ADMUX  |= (1 << ADLAR );
+  ADMUX  |=  _BV(REFS0);
+
+  // Mux 5:0 ==>  100100
+  ADCSRB |= (1 << MUX5);
+  ADMUX |= (1 << MUX2);
+
+  ADCSRA |= (1<< ADEN);
 }
+
+// void setup() {
+//   pinMode(redLed, OUTPUT);
+//   pinMode(greenLed, OUTPUT);
+
+//   pinMode(ButtonInt, INPUT);
+//   //attachInterrupt(digitalPinToInterrupt(ButtonInt), ISR1, CHANGE);
+
+//   pinMode(A12, INPUT);
+
+//   pinMode(tombolKanan, INPUT_PULLUP);
+//   pinMode(tombolKiri, INPUT_PULLUP);
+
+//   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
+//   display.clearDisplay();
+//   display.display();
+
+//   Serial.begin(9600);
+// }
 
 void loop() {
   bacaAsap = analogRead(A12);
