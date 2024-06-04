@@ -162,6 +162,11 @@ Berikut dokumentasi pada proses pengerjaan. [Dokumentasi](https://github.com/Ahm
    <img src="https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/f10de660-c18d-428b-9cc5-54c10c6ddce9" width="600"/><br>
 
 ## Cara Penggunaan Alat
+
+
+https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/91182185/28567a20-36dd-4a8e-a68d-8d7cb96f8bae
+
+
 1. Pastikan baterai dalam kondisi penuh kemudian pasang baterai pada tempatnya yaitu di dalam casing. Tutup kemasan dengan benar.
 2. Pasang LCD OLED di tempatnya yaitu di luar casing.
 3. Nyalakan power switch.
@@ -173,3 +178,4 @@ Berikut dokumentasi pada proses pengerjaan. [Dokumentasi](https://github.com/Ahm
    threshold 400 dan 600 dalam level siaga dengan audio "Terdeteksi kebocoran gas hati-hati siaga"
    threshold 800 dalam level bahaya dengan audio "Bahaya, bahaya, bahaya terdeteksi kebocoran gas"
 8. Audio bisa dimatikan dengan menekan push button sebelah kiri kemudian LED yang menyala berganti menjadi warna hijau kembali.
+Untuk video pengujian alat ini dengan versi HD bisa dilihat pada link [berikut ini](https://youtu.be/NTNdcy7BNHo)
