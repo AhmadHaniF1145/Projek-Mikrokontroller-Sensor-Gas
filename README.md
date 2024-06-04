@@ -55,7 +55,8 @@ https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/16863
 ## Skematik Rangkaian
 Berikut ini adalah hasil skematik rangkaian sistem pendeteksi kebocoran gas menggunakan software KiCad.
 
-![Schematic - Final](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/96289624/577b15af-4e1f-4909-9a41-ec3f98f00416)
+![Schematic - Pre](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/96289624/5c525918-f2c2-4e19-9b8b-826bcb388dac)
+
 
 Berikut adalah link tutorial dalam pembuatan skematik menggunakan KiCad bisa dilihat pada video [berikut.](https://youtu.be/a5kBzt2_dH4 "berikut.") Untuk semua file yang dibutuhkan terkait skematik rangkaian bisa diakses pada link [berikut.](https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/tree/main/PCB%20Board "berikut.")
 
