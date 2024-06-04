@@ -150,8 +150,8 @@ Berikut dokumentasi pada proses pengerjaan. [Dokumentasi](https://github.com/Ahm
    <img src="https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/5acbe0c3-b9a7-447f-bf3b-ef61c6bcfbeb" width="600"/><br>
 8. Proses Pemrograman Arduino <br>
    <img src="https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/491c5d70-fe31-4a7a-b16a-53aa4eae5b59" width="600"/><br>
-9. Pengujian Alat
-   GAMBAR MENYUSUL
+9. Pengujian Alat <br>
+    <img src="https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/b41f1a2b-0ff7-4b41-b7db-9fb2c16ee00e" width="600"/><br>
 10. Publikasi GitHub <br>
    <img src="https://github.com/AhmadHaniF1145/Projek-Mikrokontroller-Sensor-Gas/assets/150546371/61307e4c-8f1c-4800-a24c-95b3918444b6" width="600"/><br>
 
